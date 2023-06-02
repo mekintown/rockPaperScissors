@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <header>
+    <head>
         <meta charset="UTF-8">
         <title>Rock Paper Scissors</title>
         <script src="./script.js" defer></script>
+        <script src="https://kit.fontawesome.com/eae7b557f8.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./styles.css">
-    </header>
+    </head>
     <body>
-        <button class="rock">Rock</button>
-        <button class="paper">Paper</button>
-        <button class="scissors">Scissors</button>
+        <div class="header">
+            <div class="headerText">
+                <div class="scores">
+                    <span class="scoresText">SCORES: <span class="scoreVal">0 - 0</span></span>
+                </div>
+                <span class="reportMessage">Click to Play</span>
+            </div>
+            <i class="fa-solid fa-robot fa-2xl robotHand"></i>
+        </div>
+        <div class="buttons">
+            <div class="rockBtn card">
+                <i class="fa-solid fa-hand-back-fist fa-2xl"></i>
+                <span class="rock cardText">ROCK</span>
+            </div>
+            <div class="paperBtn card">
+                <i class="fa-solid fa-hand fa-2xl"></i>
+                <span class="paper cardText">PAPER</span>
+            </div>
+            <div class="scissorsBtn card">
+                <i class="fa-solid fa-hand-scissors fa-2xl"></i>
+                <span class="scissors cardText">SCISSORS</span>
+            </div>
+        </div>
     </body>
 </html>

@@ -1,0 +1,99 @@
+:root {
+    --primary-clr: #E5C248;
+    --primaryOnClick-clr: #c6a83b;
+    --background-clr: #E74C3C;
+    --icon-clr: #ECF0F1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-color: var(--background-clr);
+}
+
+.fa-solid {
+    color: var(--icon-clr);
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--primary-clr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    height: 70%;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.card:hover {
+    background-color: var(--primaryOnClick-clr)
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+    flex: 1;
+}
+
+.card span {
+    color: var(--icon-clr);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.cardText {
+    margin-bottom: 20px;
+}
+
+.header {
+    margin-top: 60px;
+}
+
+.scoresText {
+    color: var(--icon-clr);
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.reportMessage {
+    color: var(--icon-clr);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px; 
+}
